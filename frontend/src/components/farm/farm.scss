@@ -1,0 +1,184 @@
+.sky {
+  background-color: rgb(66, 187, 235);
+  flex: 0.3;
+  position: relative;
+  z-index: -1;
+}
+.grass {
+  background-color: rgb(28, 199, 79);
+  flex: 2;
+  position: relative;
+  z-index: -1;
+}
+.desert {
+  background-color: rgb(252, 249, 84);
+  flex: 1;
+  position: relative;
+  z-index: -1;
+}
+.water {
+  position: relative;
+  background-color: rgb(39, 121, 245);
+  flex: 0.3;
+  z-index: -1;
+}
+
+.land {
+  display: flex;
+  flex-direction: row;
+  flex: 0.4;
+  
+}
+
+.farm-emoji {
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.house {
+  position: absolute;
+  top: -8%;
+  left: 10%;
+  font-size: 75px;
+  z-index: 1;
+}
+
+.cloud {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  font-size: 50px;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+  font-size: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 12%;
+  left: 34%;
+  font-size: 50px;
+}
+
+.sun {
+  position: absolute;
+  top: 5%;
+  left: 82%;
+  font-size: 50px;
+}
+
+.palm {
+  position: absolute;
+  top: 23%;
+  left: 56%;
+  font-size: 50px;
+}
+
+.palm1 {
+  position: absolute;
+  top: 46%;
+  left: 72%;
+  font-size: 50px;
+}
+
+.palm2 {
+  position: absolute;
+  top: 53%;
+  left: 45%;
+  font-size: 50px;
+}
+
+.oasis {
+  position: absolute;
+  width: 15%;
+  height: 16%;
+  top: 45%;
+  left: 55%;
+  background-color: rgb(39, 121, 245);
+  border-radius: 50%;
+}
+
+.cactus {
+  position: absolute;
+  top: 3%;
+  left: 85%;
+  font-size: 50px;
+}
+
+.cactus1 {
+  position: absolute;
+  top: 63%;
+  left: 25%;
+  font-size: 50px;
+}
+
+.tree {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  font-size: 50px;
+}
+
+.tree1 {
+  position: absolute;
+  top: 64%;
+  left: 81%;
+  font-size: 50px;
+}
+
+.tree2 {
+  position: absolute;
+  top: -4%;
+  left: 75%;
+  font-size: 50px;
+}
+
+.tree3 {
+  position: absolute;
+  top: 78%;
+  left: 20%;
+  font-size: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  // width: 100vw;
+  font-size: 50px;
+}
+
+.mountain {
+  position: absolute;
+  top: 74%;
+  left: 42%;
+  font-size: 70px;
+  z-index: -2;
+}
+
+.mountain1 {
+  position: absolute;
+  top: 74%;
+  left: 38%;
+  font-size: 65px;
+  z-index: -2;
+}
+
+.mountain2 {
+  position: absolute;
+  top: 74%;
+  left: 20%;
+  font-size: 65px;
+  z-index: -2;
+}
+
+.boat {
+  position: absolute;
+  top: 40%;
+  left: 53%;
+  font-size: xx-large;
+}
